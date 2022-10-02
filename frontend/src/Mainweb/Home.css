@@ -1,0 +1,135 @@
+#margin-div {
+  margin-top: 50px;
+}
+
+#header {
+  color: rgb(10, 2, 2);
+  background: #fff;
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.title {
+  color: #6c63ff;
+}
+
+.title h4 {
+  color: #000;
+}
+
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.home-content {
+  color: rgb(10, 2, 2);
+  /* background: #6c63ff; */
+  background-size: 400% 400%;
+  position: relative;
+  margin-bottom: 0;
+  height:90vh;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #6c63ff;
+  border: 2px solid #6c63ff;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+#header .btn-get-started:hover {
+  border: 2px solid #6c63ff;
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+  width: 35%;
+}
+.header-img img {
+  width: 100%;
+}
+
+.wrapperHero {
+  display: flex;
+  margin: 26px 0px;
+  padding: 70px 0;
+  gap: 10rem;
+  background-image: url("../assets/background-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 72.4vh;
+  animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

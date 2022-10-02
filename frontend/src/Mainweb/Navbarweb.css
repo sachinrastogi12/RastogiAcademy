@@ -1,0 +1,76 @@
+#navbarweb-css {
+  color: rgb(10, 2, 2);
+  background: #6c63ff;
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+}
+
+.navbarActive .active {
+  color: #2f2e41;
+}
+
+.link-size {
+  font-size: 1.2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+a {
+  color: #fff;
+}
+
+.navBar-buttons {
+  font-weight: 600;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.navBar-buttons li a {
+  color: #fff;
+}
+
+.navBar-buttons li a:hover {
+  color: #2f2e41;
+}
+.navBar-signin {
+  cursor: pointer;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+.navBar-signin p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+.navBar-signin li {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.navBar-signin svg {
+  width: 1.5rem;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}

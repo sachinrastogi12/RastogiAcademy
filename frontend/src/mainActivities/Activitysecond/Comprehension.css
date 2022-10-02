@@ -1,0 +1,76 @@
+.question {
+  font-size: 32px;
+}
+.middlePortion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.compQuestion {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.imgcheckbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.imageDiv {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagePos {
+  width: 50%;
+  height: 50%;
+}
+
+.checkBoxdiv {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkBoxcontent {
+  width: 80%;
+  display: flex;
+}
+
+.checktext {
+}
+
+.checkdivs {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.check_content {
+  margin-left: 5px;
+}
+
+.activityFooter {
+  margin-top: 30px;
+}
+
+.activityFooterFrame {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pausedClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  font-size: 32px;
+}

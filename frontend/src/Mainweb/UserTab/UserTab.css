@@ -1,0 +1,15 @@
+.usertab__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2rem;
+}
+.usertab__img {
+  margin-left: 10px;
+}
+.usertab__img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}

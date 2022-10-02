@@ -1,0 +1,81 @@
+#replicate {
+  margin: 0px 0px 2px -32px;
+  color: darkorchid;
+}
+
+.pausedClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 115px;
+  font-size: 32px;
+}
+
+.mapDiv {
+  display: flex;
+  align-items: center;
+  margin: 30px 80px;
+}
+
+.c1 {
+  color: #9244eb;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid #9244eb;
+  padding: 3px 15px;
+  background-color: #fff;
+}
+.c1:hover {
+  box-shadow: 0 5px 50px 0 rgb(109, 89, 157) inset,
+    0 5px 50px 0 rgb(143, 111, 219), 0 5px 50px 0 rgb(103, 82, 152) inset,
+    0 5px 50px 0 rgb(107, 85, 159);
+
+  text-shadow: 0 0 5px rgb(128, 102, 190);
+
+  color: white;
+}
+
+.wrapp {
+  width: 100%;
+  color: rgb(10, 2, 2);
+  background: linear-gradient(-45deg, #ee7752, #e7739f, #6aa5ba, #72d0ba);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+  height: 100vh;
+  box-sizing: border-box;
+  /* padding: 100px 0; */
+}
+
+.activityFooter {
+  margin-top: 30px;
+}
+
+.activityFooterFrame {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperFrame {
+  width: 1400px;
+  margin: 0 auto;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.spelling_container h5 {
+  font-size: 1rem;
+  margin: 10px 0;
+}

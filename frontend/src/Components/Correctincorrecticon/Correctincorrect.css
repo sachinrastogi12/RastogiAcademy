@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrongicon{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(249, 2, 2, 0.662);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

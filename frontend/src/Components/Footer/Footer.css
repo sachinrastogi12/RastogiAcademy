@@ -1,0 +1,25 @@
+.pauseButton {
+  position: relative;
+  margin-left: 205px;
+}
+
+.Foot {
+  margin: 20px 119px 20px 0px;
+  float: right;
+}
+
+.b1 {
+  width: 120px;
+  color: #fff;
+  border: 2px solid #9244eb;
+  text-transform: uppercase;
+  border-radius: 100px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #9244eb;
+}
+.b1:hover {
+  color: #9244eb;
+  border: 2px solid #9244eb;
+  background: #fff;
+}
